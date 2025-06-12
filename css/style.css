@@ -1,0 +1,68 @@
+@media screen and (max-width:1680px){
+
+    .header_wrap{padding: 0 1rem; box-sizing: border-box;}
+    
+    
+    
+}
+
+@media screen and (max-width:1440px){
+
+    .footer_wrap{padding: 4rem 1rem; box-sizing: border-box;}
+
+    .card_wrap{flex-wrap: wrap;}
+    .card_wrap .card_box{width: 49%; max-width: none;}
+    .card_wrap .card_box:nth-child(-n+2){margin-bottom: 1rem;}
+    .card_wrap, .custom_wrap{padding: 8rem 1rem; box-sizing: border-box;}
+    .custom_wrap .custom_box{height: 16rem;}
+    .custom_wrap .custom_txt{display: flex; align-items: center; justify-content: center; flex-flow: column; height: 100%;}
+    .custom_wrap .custom_txt > h4{padding-top: 0; text-align: center;}
+    .custom_wrap .custom_txt > p{text-align: center;}
+
+    .slide_txt{align-items: center;}
+    .slide_txt .sub_txt{text-align: center;}
+    .br_none{display: none;}
+    
+    
+}
+
+@media screen and (max-width:810px){
+
+    /* common */
+    html{font-size: 18px;}
+
+    .top_menu{display: none;}
+    .nav{display: flex;}
+    .nav_wrap{padding: 1rem;}
+    .nav_wrap .nav_menu_wrap{align-items: flex-start; padding-top: 4rem;}
+    .nav_wrap .nav_menu_wrap .nav_menu_box{flex-wrap: wrap; width: 100%; padding-left: 3rem;}
+    .nav_wrap .nav_menu_wrap .nav_menu{width: 100%; padding-right: 0;}
+    .nav_wrap .nav_menu_wrap .nav_menu:nth-last-child(-n+2){padding-top: 2rem;}
+
+    .footer_wrap{padding: 2rem 1rem;}
+    .footer_wrap > img{max-width: 200px;}
+    
+    
+    /* main */
+    .main_wrap{max-height: 400px;}
+    .slide_txt .main_txt{font-size: 2rem;}
+
+    .slide_txt{padding: 0 1rem;}
+    .slide_txt .sub_txt{display: none;}
+    .swiper-button-next, .swiper-button-prev{display: none;}
+    
+    .card_wrap, .custom_wrap{padding: 2rem 1rem; box-sizing: border-box;}
+    .card_wrap .card_box{width: 100%;}
+    .card_wrap .card_box{margin-bottom: .8rem;}
+    .custom_inner{flex-wrap: wrap;}
+    .custom_wrap .custom_box{width: 100%;}
+    .custom_wrap .custom_box{margin-bottom: .8rem;}
+    .custom_wrap .custom_box{pointer-events: none;}
+    .custom_wrap .custom_txt > p{opacity: 1;}
+}
+
+@media screen and (max-width:375px){
+
+    
+    
+}

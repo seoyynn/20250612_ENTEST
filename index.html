@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/sub.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./script/index.js"></script>
+
+    <title>ENMEDIA</title>
+</head>
+<body>
+    <header>
+        <div class="header_wrap">
+            <h1><a href="./index.html"><img src="./images/logo.svg" alt="로고이미지"></a></h1>
+            <div class="top_menu">
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="nav">
+                <button type="button" id="nav_opn"><img src="./images/nav.png" alt="네비게이션아이콘"></button>
+            </div>
+            <div class="nav_wrap">
+                <div class="nav_btn">
+                    <div class="popFullClose">
+                        <span class="circle-text"></span>
+                        <button type="button" id="nav_cls"><img src="./images/nav_cls.png" alt="닫기"></button>
+                      </div>                      
+                </div>
+                <div class="nav_menu_wrap">
+                    <div class="nav_menu_box">
+                        <div class="nav_menu">
+                            <h2 onclick="location.href='#'">HOME</h2>
+                        </div>
+                        <div class="nav_menu">
+                            <h2 onclick="location.href='#'">ABOUT</h2>
+                        </div>
+                        <div class="nav_menu">
+                            <h2 onclick="location.href='#'">CONTACT</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="main_wrap">
+            <div class="main_slider">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slide01">
+                            <div class="slide_txt">
+                                <p class="main_txt">Lorem ipsum</p>
+                                <p class="main_txt">dolor sit amet,</p>
+                                <p class="sub_txt">
+                                    Lorem ipsum dolor sit amet, consectetur<br class="br_none">
+                                    sed do eiusmod tempor incididunt ut<br class="br_none">
+                                    labore dt dolore magna aliqua.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide02">
+                            <div class="slide_txt">
+                                <p class="main_txt">Lorem ipsum</p>
+                                <p class="main_txt">dolor sit amet,</p>
+                                <p class="sub_txt">
+                                    Lorem ipsum dolor sit amet, consectetur<br class="br_none">
+                                    sed do eiusmod tempor incididunt ut<br class="br_none">
+                                    labore dt dolore magna aliqua.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- 네비게이션 버튼 -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>            
+        </section>
+        <section class="inner card_wrap">
+            <div class="card_box">
+                <img src="./images/img1.jpg" alt="카드이미지" fetchpriority="high">
+                <div class="card_txt">
+                    <h4>Lorem ipsum<br class="br_none">dolor sit amet,</h4>
+                    <p>Lorem ipsum dolor sit amet,<br class="br_none">
+                        consectetur adipiscing elit.</p>
+                    <p>Lorem ipsum dolor sit amet,</p>
+                </div>
+            </div>
+            <div class="card_box">
+                <img src="./images/img2.jpg" alt="카드이미지" fetchpriority="high">
+                <div class="card_txt">
+                    <h4>Lorem ipsum<br class="br_none">dolor sit amet,</h4>
+                    <p>Lorem ipsum dolor sit amet,<br class="br_none">
+                        consectetur adipiscing elit.</p>
+                    <p>Lorem ipsum dolor sit amet,</p>
+                </div>
+            </div>
+            <div class="card_box">
+                <img src="./images/img3.jpg" alt="카드이미지" fetchpriority="high">
+                <div class="card_txt">
+                    <h4>Lorem ipsum<br class="br_none">dolor sit amet,</h4>
+                    <p>Lorem ipsum dolor sit amet,<br class="br_none">
+                        consectetur adipiscing elit.</p>
+                    <p>Lorem ipsum dolor sit amet,</p>
+                </div>
+            </div>
+            <div class="card_box">
+                <img src="./images/img4.jpg" alt="카드이미지" fetchpriority="high">
+                <div class="card_txt">
+                    <h4>Lorem ipsum<br class="br_none">dolor sit amet,</h4>
+                    <p>Lorem ipsum dolor sit amet,<br class="br_none">
+                        consectetur adipiscing elit.</p>
+                    <p>Lorem ipsum dolor sit amet,</p>
+                </div>
+            </div>
+        </section>
+        <section class="custom_wrap">
+            <div class="inner custom_inner">
+                <div class="custom_box box1">
+                    <div class="custom_txt">
+                        <h4>Lorem ipsum</h4>
+                        <p>Lorem ipsum dolor</p>
+                    </div>
+                </div>
+                <div class="custom_box box2">
+                    <div class="custom_txt">
+                        <h4>Lorem ipsum</h4>
+                        <p>Lorem ipsum dolor</p>
+                    </div>
+                </div>
+                <div class="custom_box box3">
+                    <div class="custom_txt">
+                        <h4>Lorem ipsum</h4>
+                        <p>Lorem ipsum dolor</p>
+                    </div>
+                </div>
+                <div class="custom_box box4">
+                    <div class="custom_txt">
+                        <h4>Lorem ipsum</h4>
+                        <p>Lorem ipsum dolor</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer_wrap">
+            <img src="./images/logo.svg" alt="로고이미지">
+            <p class="copyright">Copyrights 2024. <strong>테스트</strong> All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
